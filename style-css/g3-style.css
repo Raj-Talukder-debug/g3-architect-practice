@@ -17,7 +17,20 @@ main{
     
 }
 
+.feature-common-class-heading{
+font-size: 3rem;
+font-weight: 700;
+color: #131313;
 
+}
+
+
+.feature-common-class-para{
+
+font-size: 1rem;
+font-weight: 400;
+color: #727272;
+}
 
 .btn-primary{
     background-color: #FF900E;
@@ -30,6 +43,14 @@ main{
     margin-top: 32px;
     margin-bottom: 50px;
 }
+
+.feature-card h5{
+    
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+
 
 /* header related styles */
 
@@ -146,6 +167,57 @@ text-align: center;
     font-weight: 400;
     color: #727272;
 }
+
+
+
+
+
+
+
+/* Feature-container-section */
+
+.Feature-container{
+    
+    gap: 54px;
+    
+}
+
+.feature-will-content{
+    padding-bottom: 600px;
+}
+
+#border{
+
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-will-content p{
+    max-width: 580px;
+    margin-bottom: 20px;
+    /* border: 1px solid tomato; */
+}
+
+
+.feature-card{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px 30px 10px 30px ;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
