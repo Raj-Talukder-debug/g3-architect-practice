@@ -1,0 +1,191 @@
+.font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* shared Styles */
+
+.display-flex{
+
+    display: flex;
+    
+}
+
+
+
+.btn-primary{
+    background-color: #FF900E;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+/* header related styles */
+
+.bg-color{
+
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+main > section{
+    margin-top: 130px;
+}
+
+
+/* navbar related style */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #424242;
+}
+
+
+.navbar, .banner{
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related styles */
+
+.banner-content{
+max-width: 850px;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.banner-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+
+/* team and feature related style */
+.teams{
+    align-items: center;
+    /* gap: 24px; */
+}
+
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+}
+
+
+
+.our-features{
+    margin-left: 70px;
+    max-width: 530px;
+}
+
+
+#quick-list{
+
+    font-size: 2.8rem;
+    color: #727272;
+    font-weight: 500;
+}
+
+
+.of-our{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: 700;
+}
+.Feature{
+    font-size: 2.8rem;
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.our-features{
+    font-size: 1rem;
+
+    font-weight: 400;
+    color: #727272;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+
+.navbar, .nav-links{
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar, .banner{
+
+    max-width: 90%;
+}
+
+
+.navbar, .nav-links {
+
+    text-align: justify;
+    gap: 20px;
+}
+
+.brand{
+    font-size: 2rem;
+}
+
+.banner-content h1 {
+    font-size: 2.2rem;
+
+}
+
+
+}
